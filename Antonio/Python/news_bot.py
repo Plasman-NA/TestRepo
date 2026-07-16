@@ -40,4 +40,4 @@ if __name__ == "__main__":
         print("No website provided. Using default: CBC News")
         fetch_news("http://www.cbc.ca")
 
-    input("\nPress Enter to exit...")
+    input("\nPress Enter to exit\close...")
