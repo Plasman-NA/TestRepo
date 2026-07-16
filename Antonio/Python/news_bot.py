@@ -36,8 +36,8 @@ if __name__ == "__main__":
         site = sys.argv[1]
         fetch_news(site)
     else:
-        # If nothing is passed, it uses a default (e.g., CBC News)
-        print("No website provided. Using default: CBC News")
-        fetch_news("http://www.cbc.ca")
+        # If nothing is passed, it uses a default (e.g., CNN)
+        print("No website provided. Using default: CNN")
+        fetch_news("http://www.cnn.com")
 
     input("\nPress Enter to exit\close...")
